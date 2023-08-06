@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contanier{
+    width: 600px;
+    height: 800px;
+    background-image:url(assets/background.jpeg);
+    align-items: center;
+
+}
+
+.contact{
+    text-align: center;
+    
+    
+}
+
+.contact h1{
+    color: white;
+}
+
+.contact p{
+    color: white;
+}
+
+span{
+    text-decoration: underline;
+}
