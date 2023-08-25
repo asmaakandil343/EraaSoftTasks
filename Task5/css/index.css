@@ -14,7 +14,7 @@
 }
 
 .contanier{
-    
+    width: 80%;
     height: 882.35px;
     margin: auto;
 }
@@ -461,6 +461,7 @@
     justify-content: center;
     align-items: center;
     /* opacity: 0; */
+    
 }
 
 .icon_1:hover,.icon_2:hover,.icon_3:hover{
@@ -470,6 +471,13 @@
 /* .card_1:hover .icons{
     opacity:1;
   } */
+
+  .product1-btn button{
+    background: #ffff;
+    border: 0;
+    border: .5rem;
+
+  }
 
 
 
