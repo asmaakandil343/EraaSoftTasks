@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.title-h2{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.title-p{
+    font-size: 15px;
+    padding-top: 6px;
+    color: #555;
+}
+
+.toy-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+   
+}
+
+.product1{
+    width: calc((100% / 4) - 2rem);
+
+}
+.product2{
+    width: calc((100% / 4) - 2rem);
+
+}
+.product3{
+    width: calc((100% / 4) - 2rem);
+
+}
+.product4{
+    width: calc((100% / 4) - 2rem);
+
+}
+.product1:hover .sonic{
+    opacity: 1;
+
+}
+
+.toy-img{
+    border: .1rem solid #ffbadc;
+    position: relative;
+    overflow: hidden;
+    
+}
+.toy-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sonic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.toy-btn{
+    position: absolute;
+    bottom: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .4s;
+} 
+
+.toy-btn button{
+    padding: .5rem 1.7rem;
+    border-radius: .5rem;
+    border: 0;
+    font-size: .6rem;
+    background-color: #fff;
+    color: #222;
+    transition: .4s;
+    opacity: 0;
+}
+.toy-btn button:hover{
+    background: #00c4cc;
+    color: #fff;
+    /* opacity: 1; */
+}
+
+.product1:hover button{
+    opacity: 1;
+}
+.toy-icons{
+    position: absolute;
+    top: 20%;
+    right: .5rem;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.product1:hover .toy-icons{
+    opacity: 1;
+}
+
+.toy-icons i{
+    background: #fff;
+    padding: .5rem;
+    color: #555;
+    border-radius: .2rem;
+}
+.toy-description{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.toy-description h6{
+    margin-bottom: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.toy-description h6:hover{
+    color: #00c4cc;
+}
+
+.toy-description .price{
+    color: #00c4cc;
+}
+.toy-description del{
+    color: #999;
+    padding-left: 5px;
+    font-weight: 300;
+}
+
+
+/* product2 */
+
+.product2:hover .sonic{
+    opacity: 1;
+
+}
+
+.product2:hover button{
+    opacity: 1;
+}
+
+.product2:hover .toy-icons{
+    opacity: 1;
+}
+
+/* product 3 */
+.product3:hover .sonic{
+    opacity: 1;
+
+}
+
+.product3:hover button{
+    opacity: 1;
+}
+
+.product3:hover .toy-icons{
+    opacity: 1;
+}
+
+/* product 4 */
+
+.product4:hover .sonic{
+    opacity: 1;
+
+}
+.product4:hover button{
+    opacity: 1;
+}
+
+.product4:hover .toy-icons{
+    opacity: 1;
+}
